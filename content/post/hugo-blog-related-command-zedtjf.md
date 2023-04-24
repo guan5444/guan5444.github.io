@@ -3,8 +3,9 @@ title: Hugo博客相关命令
 slug: hugo-blog-related-command-zedtjf
 url: /post/hugo-blog-related-command-zedtjf.html
 tags: []
-categories: []
-lastmod: '2023-04-24 23:34:36'
+categories:
+  - post
+lastmod: '2023-04-24 23:34:40'
 toc: true
 keywords: ''
 description: >-
