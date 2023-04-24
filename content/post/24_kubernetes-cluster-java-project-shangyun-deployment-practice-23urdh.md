@@ -4,8 +4,9 @@ slug: 24_kubernetes-cluster-java-project-shangyun-deployment-practice-23urdh
 url: >-
   /post/24_kubernetes-cluster-java-project-shangyun-deployment-practice-23urdh.html
 tags: []
-categories: []
-lastmod: '2023-04-24 19:03:24'
+categories:
+  - post
+lastmod: '2023-04-24 19:04:19'
 toc: true
 keywords: ''
 description: >-
@@ -47,7 +48,7 @@ isCJKLanguage: true
 
 ## 1.3 系统架构图
 
-​![](https://minio.duob.top:58443/dubodata01/2023/04/1a031a224db1d739bd5df21e3157a291.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=IryuMx1mVNnVAUfO%2F20230424%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20230424T110324Z&X-Amz-Expires=3600&X-Amz-Signature=d8c4f8afc1a8394a3b5abf8787c40a23bd918654b2c785d25a5e665097331ee1&X-Amz-SignedHeaders=host%3Bif-match&x-id=GetObject)​
+​![](https://minio.duob.top:58443/dubodata01/2023/04/1a031a224db1d739bd5df21e3157a291.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=IryuMx1mVNnVAUfO%2F20230424%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20230424T110419Z&X-Amz-Expires=3600&X-Amz-Signature=1cccac7a4c50ad7200a93e4a4d4640933a48f87ac3ee7f447edf7ad468ca1a53&X-Amz-SignedHeaders=host%3Bif-match&x-id=GetObject)​
 
 # 二、环境准备
 
@@ -363,14 +364,14 @@ nginx-svc    LoadBalancer   10.96.142.224   192.168.100.201   80:30316/TCP   1s
 * 仓库名称：java-project
 * 仓库属性：私有
 
-​![](https://minio.duob.top:58443/dubodata01/2023/04/ccf62046dd9f14154fa023b2ddc59d14.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=IryuMx1mVNnVAUfO%2F20230424%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20230424T110325Z&X-Amz-Expires=3600&X-Amz-Signature=9d59615793151a1a2aaf547bf2ce8a97c69b2f497e62f8db5fa8864ad370d874&X-Amz-SignedHeaders=host%3Bif-match&x-id=GetObject)​
+​![](https://minio.duob.top:58443/dubodata01/2023/04/ccf62046dd9f14154fa023b2ddc59d14.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=IryuMx1mVNnVAUfO%2F20230424%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20230424T110419Z&X-Amz-Expires=3600&X-Amz-Signature=f99fcb949f5497897115d4ec50b57bed92a87bef4891304e096512c0fa59c8ed&X-Amz-SignedHeaders=host%3Bif-match&x-id=GetObject)​
 
 ### 2.3.2 Gitlab
 
 * 项目名称：java-project
 * 项目可见性级别：私有
 
-​![](https://minio.duob.top:58443/dubodata01/2023/04/d7f7a86c21b4c2c8f4a0e04a41c9fe4e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=IryuMx1mVNnVAUfO%2F20230424%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20230424T110325Z&X-Amz-Expires=3600&X-Amz-Signature=12e224373027e88a0249829b3f330eff4bee426706618ff5c57221400e998c40&X-Amz-SignedHeaders=host%3Bif-match&x-id=GetObject)​
+​![](https://minio.duob.top:58443/dubodata01/2023/04/d7f7a86c21b4c2c8f4a0e04a41c9fe4e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=IryuMx1mVNnVAUfO/20230424/auto/s3/aws4_request&X-Amz-Date=20230424T110325Z&X-Amz-Expires=3600&X-Amz-Signature=12e224373027e88a0249829b3f330eff4bee426706618ff5c57221400e998c40&X-Amz-SignedHeaders=host;if-match&x-id=GetObject)​
 
 ### 2.3.3 Jenkins
 
